@@ -1,0 +1,6 @@
+ .b-radius{
+   border: 4px double gainsboro;
+   padding: 25px;
+   border-radius: 10px 10px;
+   background-color: rgb(211, 211, 211);
+   }

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="main.css" rel="stylesheet"/>
+</head>
+<body class="bg-body">
+<h1 class="b-radius">Отчет до нового года</h1>
+<div class="outer-div"><h3 class="radiu">осталось до нового года {{ total }}
+    <p>Дни: {{ days }}</p>
+    <p>Часы: {{ hours }}</p>
+    <p>Минуты: {{ minuts }}</p>
+    <p>Секунды: {{ seconds }}</p>
+    </h3></div>
+<a href="{{url_for('index')}}" class="button"><p class="center radiu-button">В начало</p></a>
+</body>

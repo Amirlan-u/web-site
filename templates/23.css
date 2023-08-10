@@ -1,0 +1,32 @@
+body {  font-family: bahnschrift;
+  background-color:rgb(255, 255, 255):
+}
+
+
+  .b-radius{
+   padding: 10px;
+   border-radius: 10px 10px;
+   color: rgb(0, 0, 0);
+   background: linear-gradient(to bottom right, yellow, red);
+   }
+
+ .center{margin-left: auto;
+    margin-right: auto;
+    width: 105px}
+
+
+ .radiu{
+   padding: 10px;
+   border-radius: 1em/1em;
+   background: linear-gradient(to bottom right, red, blue);
+   color: rgb(0, 0, 0);
+   }
+
+  .radiu-button{
+   padding: 10px;
+   border-radius: 1em/1em;
+   color: rgb(0, 0, 0);
+   background: linear-gradient(to bottom right, blue, pink);
+   font-size: 24px;
+   font-weight: 6;
+   }

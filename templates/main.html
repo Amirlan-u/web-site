@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="main.css" rel="stylesheet"/>
+</head>
+<body class="bg-body">
+<h1 class="b-radius">Сайт показывающих время до какой-то даты</h1>
+<div class="outer-div"><h3 class="radiu">Выберете какую дату хотите посмотреть, время на момент открытия сайта {{now_time}}
+    </h3></div>
+
+<p class="tab">algo</p>
+
+<a href="{{url_for('index')}}" class="button"><p class="center radiu-button">До нового года</p></a>
+<a href="{{url_for('index')}}" class="button"><p class="center radiu-button">До 23 февраля</p></a>
+<a href="{{url_for('index')}}" class="button"><p class="center radiu-button">До 1 июня</p></a>
+</body>
